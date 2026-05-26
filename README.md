@@ -1,5 +1,6 @@
 # VPN Diagnostic Tool
-Simple GUI tool that runs PowerShell network commands and outputs results.
+Simple GUI tool that runs PowerShell basic network commands and outputs results.
+Made this to provide VPN support to my team but can be used to ping any target network.
 
 ## Build
 
@@ -11,12 +12,15 @@ Simple GUI tool that runs PowerShell network commands and outputs results.
 ```pwsh
 Invoke-PS2EXE `
   -InputFile "vpn_diagnostic_gui.ps1" `
-  -OutputFile "VPN Diagnostic Tool.exe" `
-  -IconFile "vpn.ico" `
+  -OutputFile "Newtwork Diagnostic Tool.exe" `
+  -IconFile "icon.ico" `
   -NoConsole `
   -STA `
   -Verbose
 ```
+
+- App name can be changed by editing line `$form.Text = "Network Diagnostic Tool"` in `vpn_diagnostic_gui.ps1` and changing 
+- Icon can also be changed, replace `icon.ico` and re-run commands
 
 ## Usage
 - Enter the target address you want to test
