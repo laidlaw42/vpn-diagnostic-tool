@@ -21,7 +21,7 @@ Invoke-PS2EXE `
 ## Usage
 - Enter the target address you want to test
 - Press `Run Test`
-- Inspect the results in the main window (can be copied) or a CSV (`Network_Diagnostic_Log_$computer.csv`) is generated on the user's Desktop
+- Results generate in the main window (can be copied) and a CSV (`Network_Diagnostic_Log_$computer.csv`) is generated on the user's Desktop
 - Each subsequent test is stored on a new row in the CSV
 
 ## Requirements:
